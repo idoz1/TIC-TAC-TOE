@@ -12,10 +12,6 @@ body {
     margin: 0 0 0 0;
     overflow: hidden;
     background-color: #56ca6f;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 1920px;
     height: 100vh;
 }
 
@@ -64,4 +60,27 @@ body {
     height: 10vmin;
     border-radius: 50%;
     border: 2vmin solid #e6e6e6;
+}
+
+.who-is-win {
+    border: none;
+    padding: 60px;
+    border-radius: 0;
+    background: linear-gradient(180.00deg, rgb(94, 180, 91) 35.878%,rgba(0, 0, 0, 0) 100%);
+    font-size: 2vmin;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Freckle Face", system-ui;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 71px;
+}
+
+dialog[open] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
