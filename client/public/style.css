@@ -84,3 +84,51 @@ dialog[open] {
     height: 100%;
     width: 100%;
 }
+
+.alone {
+    cursor: pointer;
+    margin: 30px 0 0 0;
+    background-color: lime;
+    border: none;
+    width: 80px;
+    height: 30px;
+    font-family: "Freckle Face", system-ui;
+    font-size: 18px;
+}
+
+.with-bot {
+    cursor: pointer;
+    margin: 15px 0 0 0;
+    background-color: lime;
+    border: none;
+    width: 80px;
+    height: 30px;
+    font-family: "Freckle Face", system-ui;
+    font-size: 18px;
+}
+
+h3 {
+    text-align: center;
+    margin: 30px 0 0 0;
+    font-family: "Freckle Face", system-ui;
+    font-size: 30px;
+}
+
+p {
+    margin: 15px 0 0 0;
+    font-family: "Freckle Face", system-ui;
+    font-size: 15px;
+    color: #e73737;
+}
+
+.stop-game {
+    display: none;
+    cursor: pointer;
+    background-color: lime;
+    font-family: "Freckle Face", system-ui;
+    font-size: 14px;
+    margin: 50px 0 0 0;
+    border: none;
+    width: 100px;
+    height: 40px;
+}
